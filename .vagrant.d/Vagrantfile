@@ -1,0 +1,8 @@
+#-*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+#  config.berkshelf.enabled = true
+#  config.omnibus.chef_version = "11.16"
+  config.cache.scope = :box
+end
