@@ -1,7 +1,8 @@
 alias yw='cd ~/Development/yotpo-workspace'
 alias yc='cd ~/Development/chef'
 alias fuck='sudo $(history -p \!\!)'
-
+alias yd='ssh $1 -i ~/.ssh/yotpo-dev.pem -l ubuntu'
+alias yq='ssh $1 -i ~/.ssh/yotpo-qa.pem -l ubuntu'
 # Autocomplete for aws
 
 complete -C aws_completer aws
